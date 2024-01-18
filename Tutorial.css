@@ -1,0 +1,36 @@
+/*
+Welcome to CSS Tutorial
+This is also a comment
+The basic use of this is quite simple and easy to understand
+You can choose to write your CSS code in the same file as your HTML code or use a separate file
+
+When styling in CSS you must choose a tag or class to style. The most common is html tag because that covers the whole webpage
+*/
+html {
+    /*
+    Inside of the brackets we have the styling of everything in html tags
+    The most common styling is background-color, color, font-family, font-size, text-align
+    The format of the styling is as follows:
+    property: value;
+    The value can be a few different types:
+    - color: #000000; (hexadecimal color)
+    - color: rgb(0,0,0); (rgb color)
+    - color: hsl(0,0%,0%); (hsl color)
+    - color: hsla(0,0%,0%,0); (hsla color)
+    - font-family: Arial, Helvetica, sans-serif; (font family)
+    - font-size: 12px; (pixels)
+    - font-size: 12pt; (points)
+    - text-align: left; (left, right, center, justify)
+
+    Other properties can be found at: https://www.w3schools.com/cssref/index.php
+
+     */
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
